@@ -1,0 +1,10 @@
+FROM couchdb:3.3.3
+
+//Set environment variables for the admin
+
+ENV COUCHDB_USER=admin
+ENV COUCHDB_PASSWORD=mypass
+
+// Copy custom config to allow CORS
+
+COPY local.ini /opt/couchdb/etc/local.d/
