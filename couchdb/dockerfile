@@ -2,8 +2,8 @@ FROM couchdb:3.3.3
 
 #Set environment variables for the admin
 
-ENV COUCHDB_USER=admin
-ENV COUCHDB_PASSWORD=mypass
+ENV COUCHDB_USER=Harshit
+ENV COUCHDB_PASSWORD=offline
 
 # Copy custom config to allow CORS
 
